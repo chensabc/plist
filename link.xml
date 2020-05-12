@@ -1,0 +1,29 @@
+<linker>
+  <assembly fullname="Newtonsoft.Json">
+    <type fullname="Newtonsoft.Json.*" preserve="all"/>
+  </assembly>
+  <assembly fullname="System.Runtime.CompilerServices.Unsafe" preserve="all"/>
+  <assembly fullname="DotNetty.Buffers" preserve="all"/>
+  <assembly fullname="DotNetty.Codecs" preserve="all"/>
+  <assembly fullname="DotNetty.Common" preserve="all"/>
+  <assembly fullname="DotNetty.Handlers" preserve="all"/>
+  <assembly fullname="DotNetty.Transport" preserve="all"/>
+  <assembly fullname="DnsClient" preserve="all"/>
+  <assembly fullname="System.Buffers" preserve="all"/>
+  <assembly fullname="System.Collections.Immutable" preserve="all"/>
+  <assembly fullname="System.Threading.Tasks.Extensions" preserve="all"/>
+  <assembly fullname="System" preserve="all"/>
+  <assembly fullname="UnityEngine.SpriteMaskModule">
+    <type fullname="UnityEngine.SpriteMask" preserve="all"/>
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all"/>
+	<type fullname="UnityEngine.LODGroup" preserve="all"/>
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all"/>
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule">
+    <type fullname="UnityEngine.Avatar" preserve="all"/>
+  </assembly>
+</linker>
